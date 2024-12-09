@@ -11,6 +11,7 @@ Renames audio files in batch, organizing them based on preferred naming conventi
 - [Processing Rules](#processing-rules)
   - [Case Handling](#case-handling)
   - [Edge Case Handling](#edge-case-handling)
+- [Interactive CLI Features](#interactive-cli-features)
 - [Additional Features](#additional-features)
 
 <br/>
@@ -77,6 +78,27 @@ Renames audio files in batch, organizing them based on preferred naming conventi
 3. Files with Special Characters :
 
    - Retain characters, unless they conflict with file system rules.
+
+<br/>
+
+## Interactive CLI Features:
+
+- Directory Selection :
+
+  - Prompts the user to select a directory or subdirectory for processing.
+  - Confirms the selected directory before proceeding.
+
+- File Count Summary :
+
+  - Displays the total number of directories and files to be renamed.
+
+- Custom Options :
+
+  - Asks whether to retain the `(Original Mix)` suffix.
+
+- Confirmation Step :
+
+  - Summarizes proposed changes and asks for final confirmation before execution.
 
 <br/>
 
