@@ -1,4 +1,4 @@
-# Script: Python_Renamer
+# Script: Python_Audio.Renamer
 
 Renames audio files in batch, organizing them based on preferred naming conventions for better readability and consistency.
 
