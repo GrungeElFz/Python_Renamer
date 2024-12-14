@@ -21,3 +21,11 @@ def chdir_home():
         print(f"An unexpected error occurred: {e}")
 
 chdir_home()
+
+# Iterate over files in the current directory
+for file in os.listdir():
+    # Skip .DS_Store and .localized files
+    if file in {".DS_Store", ".localized"}:
+        continue
+    print(file)
+    
